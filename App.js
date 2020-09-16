@@ -60,6 +60,10 @@ export default class PrimeiroProjeto extends Component {
 					<TouchableOpacity style={styles.botao} onPress={this.limpar}>
 						<Text style={styles.botaoText}>LIMPAR</Text>
 					</TouchableOpacity>
+					<TouchableOpacity style={styles.botao} onPress={this.limpar}>
+						<Text style={styles.botaoText}>LIMPAR</Text>
+					</TouchableOpacity>
+					
 				</View>
 			</View>
 		);
